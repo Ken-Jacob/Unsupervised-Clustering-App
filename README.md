@@ -64,12 +64,6 @@ To deploy your own version:
 
 ---
 
-## 📊 Sample Output
-
-![Cluster Plot](https://via.placeholder.com/600x300?text=Customer+Segments+Plot)
-
----
-
 ## 📋 Dataset Description
 
 The dataset used in this app contains the following columns:
