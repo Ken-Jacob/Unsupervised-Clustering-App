@@ -1,0 +1,138 @@
+2025-04-13 15:04:16,274 - data_preprocessing - INFO - Loading data from: data/mall_customers.csv
+2025-04-13 15:04:16,300 - data_preprocessing - INFO - Data loaded successfully.
+2025-04-13 15:04:16,325 - model_training - INFO - Training KMeans with 5 clusters.
+2025-04-13 15:04:16,326 - model_training - ERROR - Error in model training
+Traceback (most recent call last):
+  File "C:\Users\jacob\Algonquin\Sem 2\Machine learning\Final Project\Unsupervised Clustering\model_training.py", line 10, in train_model
+    df['Cluster'] = kmeans.fit_predict(df[['Annual Income (k$)', 'Spending Score (1-100)']])
+                                       ~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\jacob\AppData\Roaming\Python\Python313\site-packages\pandas\core\frame.py", line 4108, in __getitem__
+    indexer = self.columns._get_indexer_strict(key, "columns")[1]
+              ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^
+  File "C:\Users\jacob\AppData\Roaming\Python\Python313\site-packages\pandas\core\indexes\base.py", line 6200, in _get_indexer_strict
+    self._raise_if_missing(keyarr, indexer, axis_name)
+    ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\jacob\AppData\Roaming\Python\Python313\site-packages\pandas\core\indexes\base.py", line 6249, in _raise_if_missing
+    raise KeyError(f"None of [{key}] are in the [{axis_name}]")
+KeyError: "None of [Index(['Annual Income (k$)', 'Spending Score (1-100)'], dtype='object')] are in the [columns]"
+2025-04-13 15:04:41,882 - data_preprocessing - INFO - Loading data from: data/mall_customers.csv
+2025-04-13 15:04:41,890 - data_preprocessing - INFO - Data loaded successfully.
+2025-04-13 15:04:41,905 - model_training - INFO - Training KMeans with 7 clusters.
+2025-04-13 15:04:41,905 - model_training - ERROR - Error in model training
+Traceback (most recent call last):
+  File "C:\Users\jacob\Algonquin\Sem 2\Machine learning\Final Project\Unsupervised Clustering\model_training.py", line 10, in train_model
+    df['Cluster'] = kmeans.fit_predict(df[['Annual Income (k$)', 'Spending Score (1-100)']])
+                                       ~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\jacob\AppData\Roaming\Python\Python313\site-packages\pandas\core\frame.py", line 4108, in __getitem__
+    indexer = self.columns._get_indexer_strict(key, "columns")[1]
+              ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^
+  File "C:\Users\jacob\AppData\Roaming\Python\Python313\site-packages\pandas\core\indexes\base.py", line 6200, in _get_indexer_strict
+    self._raise_if_missing(keyarr, indexer, axis_name)
+    ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\jacob\AppData\Roaming\Python\Python313\site-packages\pandas\core\indexes\base.py", line 6249, in _raise_if_missing
+    raise KeyError(f"None of [{key}] are in the [{axis_name}]")
+KeyError: "None of [Index(['Annual Income (k$)', 'Spending Score (1-100)'], dtype='object')] are in the [columns]"
+2025-04-13 15:04:44,314 - data_preprocessing - INFO - Loading data from: data/mall_customers.csv
+2025-04-13 15:04:44,317 - data_preprocessing - INFO - Data loaded successfully.
+2025-04-13 15:04:44,321 - model_training - INFO - Training KMeans with 8 clusters.
+2025-04-13 15:04:44,322 - model_training - ERROR - Error in model training
+Traceback (most recent call last):
+  File "C:\Users\jacob\Algonquin\Sem 2\Machine learning\Final Project\Unsupervised Clustering\model_training.py", line 10, in train_model
+    df['Cluster'] = kmeans.fit_predict(df[['Annual Income (k$)', 'Spending Score (1-100)']])
+                                       ~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\jacob\AppData\Roaming\Python\Python313\site-packages\pandas\core\frame.py", line 4108, in __getitem__
+    indexer = self.columns._get_indexer_strict(key, "columns")[1]
+              ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^
+  File "C:\Users\jacob\AppData\Roaming\Python\Python313\site-packages\pandas\core\indexes\base.py", line 6200, in _get_indexer_strict
+    self._raise_if_missing(keyarr, indexer, axis_name)
+    ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\jacob\AppData\Roaming\Python\Python313\site-packages\pandas\core\indexes\base.py", line 6249, in _raise_if_missing
+    raise KeyError(f"None of [{key}] are in the [{axis_name}]")
+KeyError: "None of [Index(['Annual Income (k$)', 'Spending Score (1-100)'], dtype='object')] are in the [columns]"
+2025-04-13 15:07:16,888 - data_preprocessing - INFO - Loading data from: data/mall_customers.csv
+2025-04-13 15:07:16,891 - data_preprocessing - INFO - Data loaded successfully.
+2025-04-13 15:07:16,893 - model_training - INFO - Training KMeans with 8 clusters.
+2025-04-13 15:07:16,894 - model_training - ERROR - Error in model training
+Traceback (most recent call last):
+  File "C:\Users\jacob\Algonquin\Sem 2\Machine learning\Final Project\Unsupervised Clustering\model_training.py", line 10, in train_model
+    df['Cluster'] = kmeans.fit_predict(df[['Annual Income', 'Spending Score']])
+                                       ~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\jacob\AppData\Roaming\Python\Python313\site-packages\pandas\core\frame.py", line 4108, in __getitem__
+    indexer = self.columns._get_indexer_strict(key, "columns")[1]
+              ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^
+  File "C:\Users\jacob\AppData\Roaming\Python\Python313\site-packages\pandas\core\indexes\base.py", line 6200, in _get_indexer_strict
+    self._raise_if_missing(keyarr, indexer, axis_name)
+    ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\jacob\AppData\Roaming\Python\Python313\site-packages\pandas\core\indexes\base.py", line 6249, in _raise_if_missing
+    raise KeyError(f"None of [{key}] are in the [{axis_name}]")
+KeyError: "None of [Index(['Annual Income', 'Spending Score'], dtype='object')] are in the [columns]"
+2025-04-13 15:07:21,957 - data_preprocessing - INFO - Loading data from: data/mall_customers.csv
+2025-04-13 15:07:21,959 - data_preprocessing - INFO - Data loaded successfully.
+2025-04-13 15:07:21,961 - model_training - INFO - Training KMeans with 5 clusters.
+2025-04-13 15:07:21,961 - model_training - ERROR - Error in model training
+Traceback (most recent call last):
+  File "C:\Users\jacob\Algonquin\Sem 2\Machine learning\Final Project\Unsupervised Clustering\model_training.py", line 10, in train_model
+    df['Cluster'] = kmeans.fit_predict(df[['Annual Income', 'Spending Score']])
+                                       ~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\jacob\AppData\Roaming\Python\Python313\site-packages\pandas\core\frame.py", line 4108, in __getitem__
+    indexer = self.columns._get_indexer_strict(key, "columns")[1]
+              ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^
+  File "C:\Users\jacob\AppData\Roaming\Python\Python313\site-packages\pandas\core\indexes\base.py", line 6200, in _get_indexer_strict
+    self._raise_if_missing(keyarr, indexer, axis_name)
+    ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\jacob\AppData\Roaming\Python\Python313\site-packages\pandas\core\indexes\base.py", line 6249, in _raise_if_missing
+    raise KeyError(f"None of [{key}] are in the [{axis_name}]")
+KeyError: "None of [Index(['Annual Income', 'Spending Score'], dtype='object')] are in the [columns]"
+2025-04-13 15:08:07,868 - data_preprocessing - INFO - Loading data from: data/mall_customers.csv
+2025-04-13 15:08:07,870 - data_preprocessing - INFO - Data loaded successfully.
+2025-04-13 15:08:07,872 - model_training - INFO - Training KMeans with 5 clusters.
+2025-04-13 15:08:07,873 - model_training - ERROR - Error in model training
+Traceback (most recent call last):
+  File "C:\Users\jacob\Algonquin\Sem 2\Machine learning\Final Project\Unsupervised Clustering\model_training.py", line 10, in train_model
+    df['Cluster'] = kmeans.fit_predict(df[['Annual Income', 'Spending Score']])
+                                       ~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\jacob\AppData\Roaming\Python\Python313\site-packages\pandas\core\frame.py", line 4108, in __getitem__
+    indexer = self.columns._get_indexer_strict(key, "columns")[1]
+              ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^
+  File "C:\Users\jacob\AppData\Roaming\Python\Python313\site-packages\pandas\core\indexes\base.py", line 6200, in _get_indexer_strict
+    self._raise_if_missing(keyarr, indexer, axis_name)
+    ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\jacob\AppData\Roaming\Python\Python313\site-packages\pandas\core\indexes\base.py", line 6249, in _raise_if_missing
+    raise KeyError(f"None of [{key}] are in the [{axis_name}]")
+KeyError: "None of [Index(['Annual Income', 'Spending Score'], dtype='object')] are in the [columns]"
+2025-04-13 15:12:14,522 - data_preprocessing - INFO - Loading data from: data/mall_customers.csv
+2025-04-13 15:12:14,525 - data_preprocessing - INFO - Data loaded successfully.
+2025-04-13 15:12:14,530 - model_training - INFO - Training KMeans with 5 clusters.
+2025-04-13 15:12:14,745 - model_training - INFO - Model training and clustering completed.
+2025-04-13 15:12:53,218 - data_preprocessing - INFO - Loading data from: data/mall_customers.csv
+2025-04-13 15:12:53,222 - data_preprocessing - INFO - Data loaded successfully.
+2025-04-13 15:12:53,228 - model_training - INFO - Training KMeans with 5 clusters.
+2025-04-13 15:12:53,249 - model_training - INFO - Model training and clustering completed.
+2025-04-13 15:13:03,670 - data_preprocessing - INFO - Loading data from: data/mall_customers.csv
+2025-04-13 15:13:03,673 - data_preprocessing - INFO - Data loaded successfully.
+2025-04-13 15:13:03,677 - model_training - INFO - Training KMeans with 6 clusters.
+2025-04-13 15:13:03,687 - model_training - INFO - Model training and clustering completed.
+2025-04-13 15:13:05,591 - data_preprocessing - INFO - Loading data from: data/mall_customers.csv
+2025-04-13 15:13:05,594 - data_preprocessing - INFO - Data loaded successfully.
+2025-04-13 15:13:05,596 - model_training - INFO - Training KMeans with 8 clusters.
+2025-04-13 15:13:05,607 - model_training - INFO - Model training and clustering completed.
+2025-04-13 15:13:10,063 - data_preprocessing - INFO - Loading data from: data/mall_customers.csv
+2025-04-13 15:13:10,067 - data_preprocessing - INFO - Data loaded successfully.
+2025-04-13 15:13:10,071 - model_training - INFO - Training KMeans with 3 clusters.
+2025-04-13 15:13:10,089 - model_training - INFO - Model training and clustering completed.
+2025-04-13 15:13:17,678 - data_preprocessing - INFO - Loading data from: data/mall_customers.csv
+2025-04-13 15:13:17,681 - data_preprocessing - INFO - Data loaded successfully.
+2025-04-13 15:13:17,687 - model_training - INFO - Training KMeans with 9 clusters.
+2025-04-13 15:13:17,708 - model_training - INFO - Model training and clustering completed.
+2025-04-13 15:13:21,293 - data_preprocessing - INFO - Loading data from: data/mall_customers.csv
+2025-04-13 15:13:21,298 - data_preprocessing - INFO - Data loaded successfully.
+2025-04-13 15:13:21,304 - model_training - INFO - Training KMeans with 5 clusters.
+2025-04-13 15:13:21,320 - model_training - INFO - Model training and clustering completed.
+2025-04-13 15:33:30,155 - data_preprocessing - INFO - Loading data from: data/mall_customers.csv
+2025-04-13 15:33:30,158 - data_preprocessing - INFO - Data loaded successfully.
+2025-04-13 15:33:30,164 - model_training - INFO - Training KMeans with 5 clusters.
+2025-04-13 15:33:30,332 - model_training - INFO - Model training and clustering completed.
+2025-04-13 15:46:59,110 - data_preprocessing - INFO - Loading data from: data/mall_customers.csv
+2025-04-13 15:46:59,116 - data_preprocessing - INFO - Data loaded successfully.
+2025-04-13 15:46:59,122 - model_training - INFO - Training KMeans with 5 clusters.
+2025-04-13 15:46:59,146 - model_training - INFO - Model training and clustering completed.
