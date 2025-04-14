@@ -52,15 +52,7 @@ streamlit run app.py
 
 This app is deployed using **Streamlit Cloud**.
 
-**Live Demo**: [https://your-streamlit-app-link](https://your-streamlit-app-link)
-
-To deploy your own version:
-
-1. Push this project to GitHub
-2. Go to [Streamlit Cloud](https://share.streamlit.io/)
-3. Connect your GitHub repo
-4. Choose `app.py` as the entry point
-5. Click "Deploy"
+Access the live app at: https://ken-jacob-unsupervised-clustering-app-app-2cshg3.streamlit.app/
 
 ---
 
@@ -76,11 +68,6 @@ The dataset used in this app contains the following columns:
 
 ---
 
-## 📄 License
-
-This project is licensed under 
-
----
 
 ## 🙋‍♂️ Author
 
